@@ -7,8 +7,10 @@ function App() {
     <>
       <div>
         <Navbar />
-        <MovieCard />
-        <SearchBar />
+        <div className="bg">
+          <SearchBar />
+          <MovieCard />
+        </div>
       </div>
     </>
   );
